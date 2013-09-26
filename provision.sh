@@ -16,4 +16,4 @@ wget -O - http://binaries.erlang-solutions.com/debian/erlang_solutions.asc | apt
 
 apt-get update > /dev/null
 
-apt-get -y install make mercurial git zip xsltproc esl-erlang
+apt-get -y install make curl g++ mercurial git zip xsltproc esl-erlang
